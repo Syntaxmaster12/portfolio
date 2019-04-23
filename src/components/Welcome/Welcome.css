@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+.welcome {
+  background-image: url('./NYC.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+}
+
+.button {
+  position: relative;
+  background-color: transparent;
+  outline: none;
+  border-radius: 0;
+  top: 18em;
+  left: 14em;
+  font-family: Roboto;
+}
+.hello {
+  z-index: 1;
+  position: relative ;
+  top: 4em;
+  color: white;
+  font-family: Roboto;
+  font-size: 3em;
+}

@@ -1,0 +1,12 @@
+.nav-item {
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
+
+.nav {
+  height: 4em;
+  font-size: 1.3em;
+}
+.navbar-brand {
+  font-size: 1.3em;
+}
