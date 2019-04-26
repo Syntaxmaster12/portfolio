@@ -19,7 +19,6 @@
   font-family: Roboto;
 }
 .hello {
-  z-index: 1;
   position: relative ;
   top: 4em;
   color: white;
