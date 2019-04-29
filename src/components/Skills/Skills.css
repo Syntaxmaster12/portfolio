@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+.content {
+  background: #536976;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #292E49, #536976);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #292E49, #536976); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 100vh;
+}
+
+.heading {
+  color: white;
+  font-family: Roboto;
+  position: relative;
+  top: 2em;
+  right: 0.5em;
+  font-size: 3em;
+}
+
+.icons-row {
+  position: relative;
+  top: 10em;
+}
+
+.icon.one,.icon.two,.icon.three,.icon.four {
+  margin-right: 1em;
+}
+
+.underline {
+  border: 2px solid white;
+  position: relative;
+  right: 1em;
+  top: 7em;
+  border-radius: 6px;
+  width: 10em;
+}
+.sub-text {
+  color: white;
+  position: relative;
+  top: 10em;
+  line-height: 1.2em;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 1.3em;
+  border: 3px solid white;
+  padding: 2em;
+  border-radius: 4px;
+}
