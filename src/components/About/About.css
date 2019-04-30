@@ -1,12 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
 .profile-pic {
   background-image: url('./Code-ninja.png');
   width: 200px;
   height: 200px;
-
+  border-radius: 50%;
 }
+
 
 .content {
   background: #536976;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #292E49, #536976);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #292E49, #536976); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.about-me {
+  font-size: 1.2em;
+  font-family: Roboto;
+  color: white;
 }
