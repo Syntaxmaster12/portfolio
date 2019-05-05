@@ -5,6 +5,8 @@ import Navigation from './components/Navigation/Navigation';
 import Welcome from './components/Welcome/Welcome';
 import Skills from './components/Skills/Skills';
 import About from './components/About/About';
+import Contact from './components/Contact/Contact';
+
 class App extends React.Component {
   render() {
     return (
@@ -13,6 +15,7 @@ class App extends React.Component {
         <Welcome />
         <Skills />
         <About />
+        <Contact />
       </div>
     );
   }

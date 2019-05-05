@@ -7,15 +7,23 @@ export default class About extends React.Component {
     return (
       <div>
         <Container className="content" fluid>
-          <Row className="justify-content-sm-center">
+          <div className="wrapper">
+          <Row className="mb-5 justify-content-center">
+          <Col xs="auto">
+            <h1 className="about-me-title">About Me</h1>
+            <hr className="underline-about-me"></hr>
+          </Col>
+          </Row>
+          <Row className="justify-content-center">
             <Col xs="auto">
               <div className="profile-pic">
               </div>
             </Col>
-            <Col xs="4">
-              <p className="about-me">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam porro, eaque. Earum, maxime! Delectus, cumque. Quisquam porro, eaque. Earum, maxime! Delectus, cumque. Quisquam porro, eaque. Earum, maxime! Delectus, cumque. </p>
+            <Col xs="8">
+              <p className="about-me mt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam porro, eaque. Earum, maxime! Delectus, cumque. Quisquam porro, eaque. Earum, maxime! Delectus, cumque. Quisquam porro, eaque. Earum, maxime! Delectus, cumque. </p>
             </Col>
           </Row>
+          </div>
         </Container>
       </div>
     )

@@ -1,12 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
 .welcome {
-  background-image: url('./NYC.jpg');
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
+  background-color: black;
   height: 100vh;
-  width: 100%;
+  width: ;
 }
 
 .button {
@@ -24,4 +21,56 @@
   color: white;
   font-family: Roboto;
   font-size: 3em;
+}
+
+@media screen and (max-width: 742px) {
+  .hello {
+    font-size: 2.9em;
+  }
+}
+
+
+@media screen and (max-width: 740px) {
+  .hello {
+    top: 2em;
+  }
+  .button {
+    top: 15em;
+
+  }
+}
+
+@media screen and (max-width: 696px) {
+  .button {
+    top: 20em;
+    left: 0;
+  }
+}
+
+
+@media screen and (max-width: 430px) {
+  .button {
+    top: 20em;
+  }
+}
+
+@media screen and (max-width: 383px) {
+  .button {
+    top: 23em;
+  }
+}
+
+
+
+@media screen and (max-height: 491px) {
+    .welcome-row {
+      position: relative;
+      bottom: 5em;
+    }
+}
+@media screen and (max-height: 408px) {
+    .welcome-row {
+      position: relative;
+      bottom: 8em;
+    }
 }

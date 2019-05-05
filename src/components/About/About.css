@@ -9,13 +9,82 @@
 
 
 .content {
-  background: #536976;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #292E49, #536976);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #292E49, #536976); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 .about-me {
   font-size: 1.2em;
   font-family: Roboto;
   color: white;
+}
+.about-me-title {
+  font-family: Roboto;
+  color: white;
+  font-size: 3em;
+}
+
+.wrapper {
+  position: relative;
+  top: 38%;
+  height: 100vh;
+}
+
+.underline-about-me {
+  border: 2px solid white;
+  border-radius: 6px;
+  width: 10em;
+  position: relative;
+}
+
+@media screen and (max-width: 740px) {
+  .profile-pic {
+    height: 167px;
+    width: 167px;
+  }
+}
+
+@media screen and (max-width: 489px) {
+  .profile-pic {
+    height: 157px;
+    width: 157px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .about-me {
+    font-size: ;
+    width: 300px;
+  }
+}
+@media screen and (max-height: 588px) {
+  .wrapper {
+    top: 50%;
+  }
+}
+@media screen and (max-height: 552px) {
+  .wrapper {
+    top: 60%;
+  }
+}
+
+@media screen and (max-height: 520px) {
+  .wrapper {
+    top: 70%;
+  }
+}
+@media screen and (max-height: 391px) {
+  .wrapper {
+    top: 80%;
+  }
+}
+
+@media screen and (max-height: 369px) {
+  .wrapper {
+    top: 100%;
+  }
+}
+
+@media screen and (max-height: 328px) {
+  .wrapper {
+    top: 120%;
+  }
 }

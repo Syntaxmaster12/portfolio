@@ -5,14 +5,17 @@ import './Navigation.css' ;
  class Navigation extends React.Component {
   render(){
     return (
-      <Navbar bg="dark" variant="dark" className="nav" sticky="top">
+      <Navbar bg="dark" variant="dark" className="nav" sticky="top" expand="md">
         <Navbar.Brand className="navbar-brand" href="#home">Navbar</Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="mr-auto">
           <Nav.Link href="#home" className="nav-item 1">Home</Nav.Link>
-          <Nav.Link href="#features" className="nav-item 2">About Me</Nav.Link>
-          <Nav.Link href="#pricing" className="nav-item 3">My Skills</Nav.Link>
-          <Nav.Link href="#pricing" className="nav-item 3">Contact Me</Nav.Link>
+          <Nav.Link href="#Aboutme" className="nav-item 2">About Me</Nav.Link>
+          <Nav.Link href="#Myskills" className="nav-item 3">My Skills</Nav.Link>
+          <Nav.Link href="#Contactme" className="nav-item 3">Contact Me</Nav.Link>
         </Nav>
+        </Navbar.Collapse>
     </Navbar>
 
   );
