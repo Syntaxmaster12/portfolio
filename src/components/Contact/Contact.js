@@ -26,7 +26,7 @@ class Contact extends React.Component {
                 </Col>
               </Row>
               <Row
-              className="justify-content-center ml-5 mt-5"
+              className="justify-content-center ml-5"
               id="contact-icons">
                 <Col xs="auto">
                   <FontAwesomeIcon className="icon one contact-icon"

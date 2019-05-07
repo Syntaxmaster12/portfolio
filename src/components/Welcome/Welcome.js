@@ -13,7 +13,6 @@ class Welcome extends React.Component {
               <h1 className="hello"> Hello My name is Harrison Jones, <br></br>I am a Junior Front end Devloper</h1>
             </Col>
           </Row>
-
         </Container>
       </div>
     );

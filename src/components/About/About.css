@@ -24,16 +24,13 @@
 }
 
 .wrapper {
-  position: relative;
-  top: 38%;
-  height: 100vh;
+  margin-top: 20em;
 }
 
 .underline-about-me {
   border: 2px solid white;
   border-radius: 6px;
   width: 10em;
-  position: relative;
 }
 
 @media screen and (max-width: 740px) {
@@ -53,38 +50,5 @@
   .about-me {
     font-size: ;
     width: 300px;
-  }
-}
-@media screen and (max-height: 588px) {
-  .wrapper {
-    top: 50%;
-  }
-}
-@media screen and (max-height: 552px) {
-  .wrapper {
-    top: 60%;
-  }
-}
-
-@media screen and (max-height: 520px) {
-  .wrapper {
-    top: 70%;
-  }
-}
-@media screen and (max-height: 391px) {
-  .wrapper {
-    top: 80%;
-  }
-}
-
-@media screen and (max-height: 369px) {
-  .wrapper {
-    top: 100%;
-  }
-}
-
-@media screen and (max-height: 328px) {
-  .wrapper {
-    top: 120%;
   }
 }

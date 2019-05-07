@@ -1,9 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
 .wrapper-3 {
-  position:relative ;
-  top: 20%;
-  height: 100vh;
+  margin-top: 20em;
+  padding-bottom: 10em;
 }
 
 .Contact {
@@ -23,6 +22,10 @@
   width: 10em;
 }
 
+#contact-icons {
+  margin-top: 3em;
+}
+
 @media screen and (max-width: 690px) {
   #contact-icons {
     margin-right: 3%;
@@ -31,7 +34,7 @@
 
 @media screen and (max-height: 429px) {
   .wrapper-3 {
-    margin-top: 20em;
+    margin-top: 1em;
   }
 }
 
@@ -67,22 +70,6 @@
 
 @media screen and (max-height: 391px) {
   .contact-row {
-    position: relative;
-    top: 5em;
-  }
-}
-
-
-@media screen and (max-height: 369px) {
-  .wrapper-3 {
-    top: 10em;
-
-  }
-}
-
-@media screen and (max-height: 361px) {
-  .wrapper-3 {
-    top: 11em;
 
   }
 }
