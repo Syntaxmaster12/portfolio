@@ -6,7 +6,6 @@ import './Navigation.css' ;
   render(){
     return (
       <Navbar bg="dark" variant="dark" className="nav" sticky="top" expand="md">
-        <Navbar.Brand className="navbar-brand" href="#home">Navbar</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="mr-auto">
