@@ -1,26 +1,31 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
 .welcome {
-  background-color: black;
+  background-image: url('./code-2.jpg');
+  background-size: cover;
   height: 100vh;
 }
 
-.button {
-  position: relative;
-  background-color: transparent;
-  outline: none;
-  border-radius: 0;
-  top: 18em;
-  left: 14em;
-  font-family: Roboto;
-}
+
 .hello {
-  position: relative ;
+  position: relative;
   top: 4em;
+  font-weight: bold;
   color: white;
   font-family: Roboto;
   font-size: 3em;
+  text-align: center;
 }
+
+.hello-2 {
+  color: white;
+  font-size: 2.5em;
+  top: 5em;
+  position: relative;
+  text-align: center;
+}
+
+
 
 @media screen and (max-width: 742px) {
   .hello {
@@ -33,31 +38,30 @@
   .hello {
     top: 2em;
   }
-  .button {
-    top: 15em;
+}
+
+@media screen and (max-width: 737px) {
+  .hello-2 {
+    top: 2.3em;
+  }
+}
+
+@media screen and (max-width: 667px) {
+  .hello-2 {
+    top: 4em;
 
   }
 }
 
-@media screen and (max-width: 696px) {
-  .button {
-    top: 20em;
-    left: 0;
+
+@media screen and (max-width: 667px) {
+  .hello {
+    top: 3em;
   }
 }
 
 
-@media screen and (max-width: 430px) {
-  .button {
-    top: 20em;
-  }
-}
 
-@media screen and (max-width: 383px) {
-  .button {
-    top: 23em;
-  }
-}
 
 
 
@@ -72,4 +76,14 @@
       position: relative;
       bottom: 8em;
     }
+}
+
+
+@media screen and (max-height: 360px) {
+  .welcome-row{
+    bottom: 4em;
+  }
+  .hello-2{
+    top: 2.5em;
+  }
 }

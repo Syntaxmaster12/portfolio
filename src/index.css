@@ -14,5 +14,14 @@ code {
     monospace;
 }
 body, html {
-  
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+
+}
+#root {
+  background-color: black;
+  background: #2b5876;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(left, #4e4376, #2b5876);
+  background: -o-linear-gradient(left, #4e4376, #2b5876);
+  background: linear-gradient(to right, #4e4376, #2b5876);  /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
 }

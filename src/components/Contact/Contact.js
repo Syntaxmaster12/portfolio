@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Col, Row } from 'react-bootstrap';
+import { Container, Col, Row, Button } from 'react-bootstrap';
 import './Contact.css';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
@@ -12,7 +12,7 @@ class Contact extends React.Component {
     return  (
       <div>
         <Container className="content" fluid>
-          <div className="wrapper-3">
+          <div className="wrapper-3" id="contact">
             <div className="contact-row">
               <Row className="justify-content-center">
                 <Col xs="auto">
@@ -23,28 +23,38 @@ class Contact extends React.Component {
               <Row className="mt-3 justify-content-center">
                 <Col xs="auto">
                 <h3 className="Email">harrisonjones5678@gmail.com</h3>
+                <a href="./Resume/Harrison-Jones-Resume-2018-19.pdf">
+                  <Button size="sm"
+                    className="button mt-5"> My resume</Button>
+                </a>
                 </Col>
               </Row>
               <Row
-              className="justify-content-center ml-5"
+              className="justify-content-center"
               id="contact-icons">
                 <Col xs="auto">
-                  <FontAwesomeIcon className="icon one contact-icon"
-                  icon={['fab', 'git']}
-                  size="6x"
-                  style={{color: '#FFFFFF'}} />
+                  <a href="https://github.com/Syntaxmaster12">
+                    <FontAwesomeIcon className="icon one contact-icon"
+                      icon={['fab', 'git']}
+                      size="6x"
+                      style={{color: '#FFFFFF'}} />
+                    </a>
                 </Col>
                 <Col xs="auto">
+                <a href="https://www.linkedin.com/feed/?trk=onboarding-landing">
                 <FontAwesomeIcon className="icon two contact-icon"
-                icon={['fab', 'linkedin']}
-                size="6x"
-                style={{color: '#FFFFFF'}} />
+                  icon={['fab', 'linkedin']}
+                  size="6x"
+                  style={{color: '#FFFFFF'}}/>
+                  </a>
                 </Col>
                 <Col xs="auto">
-                <FontAwesomeIcon className="icon three contact-icon"
-                icon={['fab', 'instagram']}
-                size="6x"
-                style={{color: '#FFFFFF'}} />
+                  <a href="https://www.instagram.com/d.code__/">
+                    <FontAwesomeIcon className="icon three contact-icon"
+                      icon={['fab', 'instagram']}
+                      size="6x"
+                      style={{color: '#FFFFFF'}}/>
+                  </a>
                 </Col>
               </Row>
             </div>

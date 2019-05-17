@@ -12,7 +12,7 @@ class Skills extends React.Component {
     return (
       <div>
         <Container className="content" fluid>
-          <div className="wrapper-2">
+          <div className="wrapper-2" id="skills">
             <Row className="justify-content-center">
               <Col xs="auto">
                 <h1 className="heading mr-3">My skill set</h1>
@@ -46,7 +46,7 @@ class Skills extends React.Component {
                 <Row className="justify-content-center">
                   <Col xs="auto">
                     <p className="sub-text">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br/>Assumenda nihil, voluptatibus numquam consequatur aliquam alias quidem<br/> ipsa eos amet ipsum saepe animi deserunt officia nesciunt<br/>, aperiam odio fugiat sint, hic.10
+                    My skill set is primarily focused on front end web development, I have a good grasp on HTML5, CSS3, Javascript ( ES6 ) and responsive web design. I am comfortable performing AJAX calls and making a website dynamic by using an API, I am not shy of using a bash terminal I actually enjoy it. I also understand the basics of React.js and Bootstrap, in fact this portfolio was created using React-Bootstrap. Using Git isn’t an issue for me I am more than comfortable using version control.
                     </p>
                   </Col>
                 </Row>
