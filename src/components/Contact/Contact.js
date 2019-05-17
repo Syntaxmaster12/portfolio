@@ -4,6 +4,7 @@ import './Contact.css';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import Pdf from './Resume/Harrison-Jones-Resume-2018-19.pdf';
 
 library.add(fab)
 
@@ -23,7 +24,8 @@ class Contact extends React.Component {
               <Row className="mt-3 justify-content-center">
                 <Col xs="auto">
                 <h3 className="Email">harrisonjones5678@gmail.com</h3>
-                <a href="./Resume/Harrison-Jones-Resume-2018-19.pdf">
+                <a href= {Pdf}
+                target = "_blank">
                   <Button size="sm"
                     className="button mt-5"> My resume</Button>
                 </a>
