@@ -13,10 +13,11 @@
 
 .icons-row {
   margin-top: 3em;
+  margin-left: 2em;
 }
 
 .icon.one,.icon.two,.icon.three,.icon.four {
-  margin-right: 1em;
+  margin-right: 0.7em;
 
 }
 
@@ -24,8 +25,9 @@
 .underline {
   border: 2px solid white;
   border-radius: 6px;
-  width: 11em;
-  margin-left: 15%;
+  width: 10em;
+  margin-left: 19.5%;
+  margin-top: 1em;
 }
 .sub-text {
   color: white;
@@ -80,5 +82,23 @@
 @media screen and (max-width: 432px) {
   .icon {
     font-size: 3.2em;
+  }
+}
+@media screen and (max-width: 414px) {
+  .icons-row {
+    margin-right: 1%;
+  }
+
+  .icon.one,.icon.two,.icon.three,.icon.four {
+    margin-right: 0.3em;
+  }
+}
+@media screen and (max-width: 360px) {
+  .icon.one,.icon.two,.icon.three,.icon.four {
+    margin-right: 0.2em;
+  }
+
+  .icons-row {
+    margin-right: 2%;
   }
 }

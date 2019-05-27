@@ -17,9 +17,13 @@
 }
 
 .button {
-  margin-left: 39.2%;
+  margin-left: 39.5%;
   font-family: Roboto;
+  font-weight: bold;
+
 }
+
+
 
 .underline-contact {
   border: 2px solid white;
@@ -30,33 +34,102 @@
 
 #contact-icons {
   margin-top: 3em;
-  margin-left: 7%;
+  margin-left: 3.5%;
 }
 
-@media screen and (min-width: 1280px) {
+
+.button:hover {
+  background-color: grey;
+  border-color: grey;
+}
+
+@media screen and (max-width: 1756px) {
   #contact-icons {
-    margin-top: 3em;
-    margin-left: 7%;
+    margin-left: 5.5%;
+  }
+}
+
+
+@media screen and (max-width: 1592px) {
+  #contact-icons {
+    margin-left: 6.1%;
+  }
+}
+
+
+
+@media screen and (max-width: 1414px) {
+  #contact-icons {
+    margin-left: 6.7%;
+  }
+}
+
+
+@media screen and (max-width: 1280px) {
+  #contact-icons {
+    margin-left: 5.5%;
+  }
+}
+
+@media screen and (max-width: 1126px) {
+  #contact-icons {
+    margin-left: 8.5%;
+  }
+}
+
+
+@media screen and (max-width: 1024px) {
+  #contact-icons {
+    margin-left: 6.9%;
+  }
+}
+
+
+
+@media screen and (max-width: 954px) {
+  #contact-icons {
+    margin-left: 10%;
+  }
+}
+
+
+@media screen and (max-width: 845px) {
+  #contact-icons {
+    margin-left: 11.3%;
   }
 }
 
 @media screen and (max-width: 812px) {
   #contact-icons {
-    margin-left: 9%;
+    margin-left: 7%;
   }
 }
 
 
+@media screen and (max-width: 800px) {
+  #contact-icons {
+    margin-left: 7.5%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #contact-icons {
+    margin-left: 7.5%;
+  }
+}
+
+
+
 @media screen and (max-width: 740px) {
   #contact-icons {
-    margin-left: 10%;
+    margin-left: 8%;
   }
 }
 
 
 @media screen and (max-width: 736px) {
   #contact-icons {
-    margin-left: 10%;
+    margin-left: 8.2%;
   }
 }
 
@@ -68,25 +141,36 @@
 
 @media screen and (max-width: 667px) {
   #contact-icons {
-    margin-left: 10%;
+    margin-left: 12%;
   }
 }
 
-@media screen and (max-height: 429px) {
-  .wrapper-3 {
 
+@media screen and (max-width: 664px) {
+  #contact-icons {
+    margin-left: 12%;
   }
 }
+
 
 @media screen and (max-width: 444px) {
   #contact-icons {
     margin-right: 2%;
+    display: block;
+    margin-top: 12%;
+    margin-left: 41%;
+
   }
 
+  #two, #three {
+   margin-top: 0.5em;
+ }
+
   .contact-icon {
-    font-size: 3em;
+    font-size: 3.8em;
   }
 }
+
 
 @media screen and (max-width: 382px) {
   .Email {
@@ -95,24 +179,22 @@
   }
 }
 
-@media screen and (max-width: 372px) {
-  .contact-icon {
-    font-size: 2.5em;
+
+@media screen and (max-width: 375px) {
+  .button {
+    margin-left: 38.5%;
   }
+  #contact-icons {
+    margin-left: 39.9%;
+  }
+
+
 }
+
+
 
 @media screen and (max-width: 367px) {
   .Email {
     font-size: 1.4em;
-  }
-}
-
-
-@media screen and (max-width: 375px) {
-  .button {
-    margin-left: 37.5%;
-  }
-  #contact-icons {
-    margin-left: 8.5%;
   }
 }

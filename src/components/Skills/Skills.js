@@ -15,8 +15,8 @@ class Skills extends React.Component {
           <div className="wrapper-2" id="skills">
             <Row className="justify-content-center">
               <Col xs="auto">
-                <h1 className="heading mr-3">My skill set</h1>
-                <hr className="underline mr-8"></hr>
+                <h1 className="heading">My skill set</h1>
+                <hr className="underline mt-4"></hr>
                 </Col>
             </Row>
               <Row className="justify-content-center icons-row">

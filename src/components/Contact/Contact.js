@@ -4,7 +4,7 @@ import './Contact.css';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import Pdf from './Resume/H.Jones-ITResume.pdf';
+import Pdf from './Resume/H.Jones-resume.pdf';
 
 library.add(fab)
 
@@ -37,26 +37,29 @@ class Contact extends React.Component {
                 <Col xs="auto">
                   <a href="https://github.com/Syntaxmaster12">
                     <FontAwesomeIcon className="icon one contact-icon"
+                      id="one"
                       icon={['fab', 'git']}
                       size="6x"
                       style={{color: '#FFFFFF'}} />
                     </a>
                 </Col>
                 <Col xs="auto">
-                <a href="https://www.linkedin.com/feed/?trk=onboarding-landing">
-                <FontAwesomeIcon className="icon two contact-icon"
-                  icon={['fab', 'linkedin']}
-                  size="6x"
-                  style={{color: '#FFFFFF'}}/>
-                  </a>
+                  <a href="https://www.linkedin.com/feed/?trk=onboarding-landing">
+                    <FontAwesomeIcon className="icon two contact-icon"
+                          id="two"
+                          icon={['fab', 'linkedin']}
+                          size="6x"
+                          style={{color: '#FFFFFF'}}/>
+                    </a>
                 </Col>
                 <Col xs="auto">
                   <a href="https://www.instagram.com/d.code__/">
                     <FontAwesomeIcon className="icon three contact-icon"
+                      id="three"
                       icon={['fab', 'instagram']}
                       size="6x"
                       style={{color: '#FFFFFF'}}/>
-                  </a>
+                    </a>
                 </Col>
               </Row>
             </div>
