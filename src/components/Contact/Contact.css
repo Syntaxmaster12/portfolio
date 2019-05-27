@@ -33,6 +33,12 @@
   margin-left: 7%;
 }
 
+@media screen and (min-width: 1280px) {
+  #contact-icons {
+    margin-top: 3em;
+    margin-left: 7%;
+  }
+}
 
 @media screen and (max-width: 812px) {
   #contact-icons {
