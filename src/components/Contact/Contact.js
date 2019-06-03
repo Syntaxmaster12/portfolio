@@ -4,7 +4,7 @@ import './Contact.css';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import Pdf from './Resume/H.Jones-resume.pdf';
+import Pdf from './Resume/H.Jones-Resume.pdf';
 
 library.add(fab)
 

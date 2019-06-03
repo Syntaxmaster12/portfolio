@@ -46,9 +46,7 @@ class Skills extends React.Component {
                 <Row className="justify-content-center">
                   <Col xs="auto">
                     <p className="sub-text">
-                    I am primarily focused on Front End Web Development. My skills include HTML5, CSS3, JavaScript (ES6), and
-Responsive Web Design. Comfortable with performing AJAX calls, using API, and Terminal. Also, I am
-well-rounded with React.js, Bootstrap, and Github.
+                  My core skill set is comprised of using HTML5, CSS3 (CSS grid, flexbox), AJAX, and JavaScript (ES6).  I am very comfortable using modern front end frameworks like React.js, Bootstrap, and React-Bootstrap which this site was built with. Also, I am experienced with using various tools such as Git, Node Package Manager and the command line.
                     </p>
                   </Col>
                 </Row>
